@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.vibhor.pocket.weeekActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Week"
+        android:id="@+id/tweek"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="47dp" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="16"
+        android:id="@+id/daterr"
+        android:hint="Duration"
+        android:layout_below="@+id/tweek"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Monday"
+        android:id="@+id/tmon"
+        android:layout_below="@+id/daterr"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Present"
+        android:id="@+id/cpre"
+        android:layout_below="@+id/tmon"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Absent"
+        android:id="@+id/cabs"
+        android:layout_below="@+id/cpre"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Class"
+        android:id="@+id/pno"
+        android:layout_below="@+id/cabs"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Holiday"
+        android:id="@+id/pho"
+        android:layout_below="@+id/pno"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Tuesday"
+        android:id="@+id/ttue"
+        android:layout_below="@+id/pho"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Present"
+        android:id="@+id/catt"
+        android:layout_below="@+id/ttue"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Absent"
+        android:id="@+id/cnat"
+        android:layout_below="@+id/catt"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="216dp"
+        android:checked="false"
+        android:layout_alignParentStart="true" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Class"
+        android:id="@+id/no"
+        android:layout_below="@+id/cnat"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Holiday"
+        android:id="@+id/cho"
+        android:layout_below="@+id/no"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Wednesday"
+        android:id="@+id/twed"
+        android:layout_below="@+id/cho"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Present"
+        android:id="@+id/cp"
+        android:layout_below="@+id/twed"
+        android:layout_alignEnd="@+id/twed"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Absent"
+        android:id="@+id/ca"
+        android:layout_below="@+id/cp"
+        android:layout_alignEnd="@+id/cp"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Class"
+        android:id="@+id/not"
+        android:layout_below="@+id/ca"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Holiday"
+        android:id="@+id/ho"
+        android:layout_below="@+id/not"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Thursday"
+        android:id="@+id/tthu"
+        android:layout_below="@+id/ho"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Present"
+        android:id="@+id/p"
+        android:layout_below="@+id/tthu"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Absent"
+        android:id="@+id/a"
+        android:layout_below="@+id/p"
+        android:layout_alignEnd="@+id/tthu"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Class"
+        android:id="@+id/dno"
+        android:layout_below="@+id/p"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Holiday"
+        android:id="@+id/dho"
+        android:layout_below="@+id/dno"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Friday"
+        android:id="@+id/tfri"
+        android:layout_below="@+id/dho" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Present"
+        android:id="@+id/yes"
+        android:layout_below="@+id/tfri"
+        android:layout_alignEnd="@+id/a"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Absent"
+        android:id="@+id/cno"
+        android:layout_below="@+id/yes"
+        android:checked="false" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Class"
+        android:id="@+id/eno"
+        android:layout_below="@+id/cno"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Holiday"
+        android:id="@+id/eho"
+        android:layout_below="@+id/eno"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO"
+        android:id="@+id/b_go"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/eho"
+        android:layout_marginBottom="55dp" />
+
+
+
+</RelativeLayout>
